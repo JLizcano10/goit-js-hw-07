@@ -21,14 +21,6 @@ var lightbox = new SimpleLightbox(".gallery a", {
   captionPosition: "bottom",
 });
 
-/* No funciona
-var lightbox = $(".gallery a").simpleLightbox({
-  captionsData: "alt",
-  captionDelay: 250,
-  captionPosition: "bottom",
-});
-*/
-
 // eventos?
 lightbox.on("show.simplelightbox", function (e) {
   e.preventDefault();
